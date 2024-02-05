@@ -1,0 +1,70 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://dinahosting.com/blog/upload/2018/06/lenguajes-de-programaci%C3%B3n-1-1.jpg');
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    background-color: #343a40;
+    padding: 10px 0;
+}
+
+nav.navbar {
+    text-align: center;
+}
+
+nav.navbar a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+nav {
+    background-color: #000000;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100%;
+}
+
+.card {
+    width: 100%;
+}
+
+
+
+.border {
+    border: 1px solid #ff0000;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
